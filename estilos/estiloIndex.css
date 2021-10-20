@@ -38,7 +38,7 @@ nav>menu>li{
 li>a{
     display: block;
     padding: 8px;
-    color:rgb(150, 228, 154);
+    color:greenyellow;
 }
 aside{
     display:grid
