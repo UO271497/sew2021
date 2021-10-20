@@ -50,7 +50,7 @@ aside h3{
 article img{
     max-width: 100%;
     height: auto;
-    width: auto;
+    min-width: 150px;
 }
 video{
     display: block;
