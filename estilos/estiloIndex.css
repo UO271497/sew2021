@@ -48,9 +48,8 @@ aside h3{
     text-align: center;
 }
 article img{
-    max-width: 100%;
+    width:40%;
     height: auto;
-    min-width: 150px;
 }
 video{
     display: block;
