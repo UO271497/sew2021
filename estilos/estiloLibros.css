@@ -23,8 +23,7 @@ li>a{
 }
 main {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
     gap: 0px 10px;
     grid-auto-flow: row;
     grid-area: 3 / 1 / 4 / 2;
