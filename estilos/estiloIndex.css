@@ -49,7 +49,7 @@ aside h3{
 }
 article img{
     max-width: 100%;
-    height: 40%;
+    height: fit-content;
 }
 video{
     display: block;
