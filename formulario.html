@@ -3,6 +3,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="estilos/estiloFormulario.css" />
     <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
     <meta name="author" content="Miguel Suárez Artime">
     <meta name="description" content="Pagina web con un formulario sobre la vida de Bert Bos.">
@@ -12,42 +13,51 @@
 
 <body>
     
-    <h1>Formulario opinión</h1>
-    
-    
-    <h2>Navegación</h2>
-    <nav>
-        <menu>
-            <li><a href="index.html" accesskey="I" tabindex=
-                "1">Inicio </a></li>
-            <li><a href="libros.html" accesskey="L" tabindex=
-                "2">Libros </a></li>
-            <li><a href="publicaciones.html" accesskey="P" tabindex=
-                "3">Publicaciones</a></li>
-            <li><a href="formulario.html" accesskey="F" tabindex=
-                "4">Formulario</a></li>
-        </menu>
+    <header>
+        <h1>Bert Bos</h1>
+    </header>
+    <nav> Navegación
+            <menu>
+                <li><a href="index.html" accesskey="I" >Inicio </a></li>
+                <li><a href="libros.html" accesskey="L" >Libros </a></li>
+                <li><a href="publicaciones.html" accesskey="P">Publicaciones</a></li>
+                <li><a href="formulario.html" accesskey="F">Formulario</a></li>
+            </menu>
     </nav>
-   
-    <p>¡Rellena tus datos y envíanos tu opinión!</p>
-    <form name="datos">
-        <label for="Nombre">Nombre</label>
-        <input type="text" id="Nombre" name="Nombre"><br>
-
-        <label for="Apellidos">Apellidos</label>
-        <input type="text" id="Apellidos" name="Apellidos"><br>
-
-        <label for="FechaNacimiento">Fecha de nacimiento</label>
-        <input type="date" id="FechaNacimiento" name="FechaNacimiento"><br>
-        <label for="Email">Email</label>
-        <input type="email" id="Email" name="Email"><br>
-
-        <label for="Area">Opinión</label> 
-        <textarea cols="40" rows="10" id="Area" name="Area"></textarea>
-        <input type="button"
-        value="Envía la información">
-        </form>
-        <img src="multimedia/bert2.jpg" alt="Una imagen de Bert Bos">
+    <main>
+        <section>
+            <h2>Rellena tus datos y danos tu opinión</h2>
+            <form name="datos">
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" name="Nombre"><br>
+        
+                <label for="Apellidos">Apellidos</label>
+                <input type="text" id="Apellidos" name="Apellidos"><br>     
+                <label for="FechaNacimiento">Fecha de nacimiento</label>
+                <input type="date" id="FechaNacimiento" name="FechaNacimiento"><br>
+                <label for="Email">Email</label>
+                <input type="email" id="Email" name="Email"><br>
+        
+                
+            </form>
+            <img src="multimedia/bert2.jpg" alt="Una imagen de Bert Bos">
+        </section>
+        <aside>
+        <section>
+            <label for="Area">Opinión</label> 
+            <textarea cols="20" rows="10" id="Area" name="Area"></textarea>
+            <input type="button" value="Envía la información">
+        </section>
+        </aside>
+    </main>
+    <footer>
+        <h3>Información autor</h3>
+        <p>Esta página web ha sido diseñada por el alumno de SEW Miguel Suárez Artime.</p>
+    </footer>        
+        
+    
+    
+        
 
 </body>
 </html>

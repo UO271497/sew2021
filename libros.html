@@ -4,6 +4,7 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="estilos/estiloLibros.css" />
     <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
     <meta name="author" content="Miguel Suárez Artime">
     <meta name="description" content="Pagina web sobre los libros de Bert Bos, co-creador de CSS.">
@@ -12,48 +13,55 @@
 </head>
 
 <body>
-    <h1>Libros publicados por Bert Bos</h1>
-    <h2>Navegación</h2>
-    <nav>
+    <header>
+        <h1>Libros publicados por Bert Bos</h1>
+    </header>
+    <nav> Navegación
         <menu>
-            <li><a href="index.html" accesskey="I" tabindex=
-                "1">Inicio </a></li>
-            <li><a href="libros.html" accesskey="L" tabindex=
-                "2">Libros </a></li>
-            <li><a href="publicaciones.html" accesskey="P" tabindex=
-                "3">Publicaciones</a></li>
-            <li><a href="formulario.html" accesskey="F" tabindex=
-                "4">Formulario</a></li>
+            <li><a href="index.html" accesskey="I" >Inicio </a></li>
+            <li><a href="libros.html" accesskey="L" >Libros </a></li>
+            <li><a href="publicaciones.html" accesskey="P">Publicaciones</a></li>
+            <li><a href="formulario.html" accesskey="F">Formulario</a></li>
         </menu>
     </nav>
-    <table>
-        <caption>Publicaciones</caption>
+    <main>
+        <section>
+            <h2>Libros publicados</h2>
+        <table>
         <tr>
-        <td>Datos de publicaciones</td>
+        <th>Datos de publicaciones</th>
         <th>Fecha de publicación </th>
         <th>ISBN </th>
         <th>Idioma</th>
         <th>Autores</th>
         </tr>
         <tr>
-        <th>Cascading Style Sheets: Designing for the Web </th>
+        <td>Cascading Style Sheets: Designing for the Web </td>
         <td>22 mayo 1997 </td>
         <td>978-0201419986</td>
         <td>Inglés</td>
         <td>Bert Bos y Hakon Wium Lie</td>
         </tr>
         <tr>
-        <th>De Kloof Overbrugd?</th>
+        <td>De Kloof Overbrugd?</td>
         <td>11 marzo 2011</td>
         <td>978-9056296773</td>
         <td>Holandés</td>
         <td>Bert Bos</td>
         </tr>
         </table>
-
+    </section>
+    <section>
+        
         <img src="multimedia/libro_bert.jpg" width="150" height="200" alt="Imagen del libro De Kloof Overbrugd?">
        
-        <img src="multimedia/css_libro.jpg" width="150" height="200" alt="Imagen del libro Cascading Style Sheets">"
-        <footer><p>Portada de "De Kloof Overbrugd?" y "Cascading Style Sheets: Designing for the Web"</p></footer>
+        <img src="multimedia/css_libro.jpg" width="150" height="200" alt="Imagen del libro Cascading Style Sheets">
+    </section>
+    </main>
+    <footer>
+        <h3>Información autor</h3>
+        <p>Esta página web ha sido diseñada por el alumno de SEW Miguel Suárez Artime.
+        </p>
+     </footer>
 </body>
 </html>
